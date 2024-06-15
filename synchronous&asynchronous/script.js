@@ -1,8 +1,8 @@
 
-// //synchronous code. Execute line by line
-// console.log("Task-1");
-// console.log("Task-2");
-// console.log("Task-3");
+//synchronous code. Execute line by line
+console.log("Task-1");
+console.log("Task-2");
+console.log("Task-3");
 
 
 // asynchronous code. Execute code at the same time
