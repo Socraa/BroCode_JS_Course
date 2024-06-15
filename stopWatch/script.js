@@ -16,20 +16,20 @@ function start(){
 
 function stopp(){
     
-    // if(isRunning){
-    //     clearInterval(timer);
-    //     elapsedTime = Date.now() - startTime;
-    //     isRunning = false;
-    // }
+    if(isRunning){
+        clearInterval(timer);
+        elapsedTime = Date.now() - startTime;
+        isRunning = false;
+    }
 
 }
 
 function reset(){
-    // clearInterval(timer);
-    // startTime = 0;
-    // elapsedTime = 0;
-    // isRunning = false;
-    // display.textContent = "00:00:00:00";
+    clearInterval(timer);
+    startTime = 0;
+    elapsedTime = 0;
+    isRunning = false;
+    display.textContent = "00:00:00:00";
 }
 
 function update(){

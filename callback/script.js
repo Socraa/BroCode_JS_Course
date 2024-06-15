@@ -15,7 +15,7 @@
 // hello(goodBye);
 
 
-sum(displayConsole, 4,4);
+
 
 function sum(callback, x,y){
     let result = x + y;
@@ -25,3 +25,5 @@ function sum(callback, x,y){
 function displayConsole(resulta){
     console.log(resulta);
 }
+
+sum(displayConsole, 4,4);
