@@ -1,11 +1,11 @@
-// try{
-//     console.log(x);
-// }catch(error){
-//     console.error("hello"); // It's better to use console.error if you're handling an error, making it more visible
-// }finally{
-//     console.log("This always executes");
-// }
-// console.log("hi");
+try{
+    console.log(x);
+}catch(error){
+    console.error("hello"); // It's better to use console.error if you're handling an error, making it more visible
+}finally{
+    console.log("This always executes");
+}
+console.log("hi");
 
 try{
     const dividend = window.prompt("Enter a Dividend");
