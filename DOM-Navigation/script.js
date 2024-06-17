@@ -1,4 +1,4 @@
-//----------.firstElementChild----------
+// //----------.firstElementChild----------
 
 // const element = document.querySelector('#fruits');
 // const firstChild = element.firstElementChild;
@@ -24,7 +24,7 @@
 //     lastChild.style.background = "yellow";
 // })
 
-//----------.nextElementSibling----------
+// //----------.nextElementSibling----------
 
 // const element = document.querySelector('#apple');
 // const next = element.nextElementSibling;
@@ -32,23 +32,19 @@
 // // Output: the orange will be yellow
 
 
-// //----------.previousElementSibling----------
+//----------.previousElementSibling----------
 // const element = document.querySelector('#orange');
 // const previous = element.previousElementSibling;
 // previous.style.background = "yellow";
 
 
-// //----------.parentElement----------
+//----------.parentElement----------
 // const element = document.querySelector('#orange');
 // const parent = element.parentElement;
 // parent.style.background = "yellow";
 
 
-//----------.children----------
-// const element = document.querySelector('#fruits');
-// const children = element.children;
-// console.log(children);
-
+// ----------.children----------
 const element = document.querySelector('#fruits');
 const children = element.children; // turns into an array-like object
 
