@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#picHide{
+    border: 2px solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+#picHide img{
+    height: 300px;
+    width: auto;
+}
