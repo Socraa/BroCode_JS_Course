@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#myBox{
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(180deg, darkcyan, darkcyan, cyan);
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 2s ease;
+
+
+}
