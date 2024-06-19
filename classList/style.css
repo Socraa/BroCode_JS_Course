@@ -1,0 +1,47 @@
+/* #myButton{
+height: 80px;
+border-radius: 30px;
+border: 2px solid;
+font-size: 15px;
+font-weight: 600;
+padding: 20px;
+}
+
+.enabled{  
+    background-color: darkcyan;
+    color: wheat;
+}
+
+.hover{
+    box-shadow: 0 0 10px black;
+}
+
+.disabled{
+    background-color: rgba(0, 0, 0, 0.977);
+    color: hsla(0, 0%, 100%, 0.656);
+} */
+
+/*NodeList Challenge*/
+
+.myButtons{
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+    }
+    
+    .enabled{  
+        background-color: darkcyan;
+        color: wheat;
+    }
+    
+    .hover{
+        box-shadow: 0 0 10px black;
+    }
+    
+    .disabled{
+        background-color: rgba(0, 0, 0, 0.977);
+        color: hsla(0, 0%, 100%, 0.656);
+    }
