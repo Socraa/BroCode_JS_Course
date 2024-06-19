@@ -11,17 +11,18 @@ const myBox = document.querySelector('#myBox');
 // });
 
 myBox.addEventListener("click", event => { // using arrow fucntion
-    event.target.style.background = "red";
-    event.target.textContent = "BITCH!!! 😡";
+    // event.target.style.background = "red";
+    // event.target.textContent = "BITCH!!! 😡";
+    console.log(event);
 })
 
-myBox.addEventListener("mouseover", event => {
-    event.target.style.background = "linear-gradient(180deg, darkcyan, cyan, yellow)";
-    event.target.textContent = "STFU!!";
-})
+// myBox.addEventListener("mouseover", event => {
+//     event.target.style.background = "linear-gradient(180deg, darkcyan, cyan, yellow)";
+//     event.target.textContent = "STFU!!";
+// })
 
-myBox.addEventListener("mouseout", event => {
-    event.target.style.background = "linear-gradient(180deg, darkcyan, darkcyan, cyan)";
-    event.target.textContent = "Click Me 😁";
+// myBox.addEventListener("mouseout", event => {
+//     event.target.style.background = "linear-gradient(180deg, darkcyan, darkcyan, cyan)";
+//     event.target.textContent = "Click Me 😁";
 
-})
+// })

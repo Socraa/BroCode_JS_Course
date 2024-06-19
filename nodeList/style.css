@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#buttons{
+    border: 2px solid;
+    padding: 20px;
+
+}
+.myButtons{
+    width: 120px;
+    height: 70px;
+    border-radius: 30px;
+    border: 2px solid;
+    box-shadow: 1px 1px 5px;
+    background-color: darkcyan;
+    margin: 0px 10px 0px;
+    transition: all 0.3s ease;
+}
+
+.myButtons:hover{
+    transform:scale(1.03)
+}
