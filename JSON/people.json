@@ -1,0 +1,24 @@
+[{
+    "name": "plato",
+    "age": 70,
+    "isRich": "true"
+
+},{
+
+    "name": "Nietzsch",
+    "age": 55,
+    "isRich": "false"
+
+},{
+
+    "name": "Diogenes",
+    "age": 81,
+    "isRich": "false"
+
+},{
+
+    "name": "Aurelius",
+    "age": 58,
+    "isRich": "true"
+
+}]
